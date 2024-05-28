@@ -1,0 +1,55 @@
+what is database  -  Database is a collection of data and it holds data in form of tables.
+
+what is tables  - tables holds data in form of row and columns.
+
+why we are using database - with the help of database we can access and modify the data as per our requirements.
+
+Types od database :
+
+1)Relational Database - Which store data in form of tables and in this database Tables may have relationship with each other. eg Sql,Mysql,Oracle,PosgreSql
+
+2)Nosql Database -  Which store data in form of document or Graph.eg Mongo db
+
+What is SQL - SQL Stand for Structured Query Language ,this is a Language to perform operation on Database .
+
+Mysq Vs Sql  - Mysql is a Database which holds Data in form of Tables and Sql is a Way to Communicate with this Database.
+
+Installation - GoormIdE
+
+mysql-ctl cli;
+
+show databases;
+
+How to clear the Screen : - ctrl+l
+
+How to create Database Trendytech? - CREATE DATABASE trendytech;
+
+How to Drop the database - DROP DATABASE trendytech;
+
+How to connect with particular database - USE databasename - e.g. USE trendytech;
+
+How to know the current database - SELECT DATABASE();
+
+Datatypes in SQL:
+1) int - used for numeric value
+2) varchar - used for string value upto 255 charachter
+
+
+How to create a Table ?
+
+CREATE TABLE TABLENAME(colmname datatype);
+e.g.
+
+CREATE TABLE Employee(name varchar(50),age int,salary int);
+
+How to check Table inside the database - SHOW TABLES;
+
+How to check the structure of table - DESC tablename  -  DESC EMPLOYEE;
+
+How to create table inside a database directly ?
+
+CREATE TABLE DATABASENAME.TABLENAME(colmname datatypes);  e.g. CREATE TABLE trendytech.dept(deptno int,deptname varchar(20));
+
+
+
+
